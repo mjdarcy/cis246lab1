@@ -1,2 +1,9 @@
 Lab 2 summary
 
+The first noticable difference between the Ubuntu terminal and my CentOS VM is the "ls" command. My CentOS machine has one manually created "repos" directory within the user directory. In the Ubuntu terminal, the user directory contains several subdirectories installed such as the Desktop, Documents, and Downloads directories. Supplying the "-a" option in the terminals reveals additional hidden files. Some of them are the same, and others are unique. For example, both virtual boxes contain the ".bashrc" file, but the Ubuntu PC has a ".cache" file and the CentOS machine has a ".bash_history" file.  
+
+Most of the commands from 2.1.5 through 2.1.19 return the same results in both terminals. The commands in these sections are the different options and arguments you can supply for "ls". The "cp" and "alias" commands work the same. 
+
+Tabbing twice to autocomplete the input "ca" provides different results for each terminal. They share commands like cat, catman, and caller, but Ubuntu displays several commands, such as calender and cautious-launcher. My CentOS machine contains six commands not found in Ubuntu that begin with "cache_". A few examples are cache_repair and cache_restore. 
+
+The man pages are different. CentOS highlights much of the syntax in a teal color. The Ubuntu terminal is plain white text, throughout. The movement commands all appear to be the same. Both terminals return output for "man passwd". However,  in Ubuntu, man passwd also exists in section 5 of the man pages, but not in CentOS. "man 5 passwd" will return "No manual entry for passwd in section 5". The -k and -f options function the same, but provide different output. And the "whatis" command provides a different definition nomenclature for passwd (1). 
